@@ -169,3 +169,24 @@ main {
     background-color: darkred;
     color: white;
 }
+@media (min-width: 500px) and (max-width: 716px){
+    #searchBookTitle{
+        max-width: 75%;
+    }
+    #searchSubmit{
+        padding: 10px 10px;
+    }
+}
+@media screen and (max-width: 500px){
+    #searchSubmit{
+        padding: 10px 10px;
+    }
+    #searchBook{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .search_section{
+        text-align: center;
+    }
+}
